@@ -76,4 +76,10 @@ public class Sale {
 	public void setSeller(Seller seller) {
 		this.seller = seller;
 	}
+
+	@Override
+	public String toString() {
+		return "Sale [id=" + id + ", visited=" + visited + ", deals=" + deals + ", amount=" + amount + ", date=" + date
+				+ ", seller=" + seller + "]";
+	}
 }

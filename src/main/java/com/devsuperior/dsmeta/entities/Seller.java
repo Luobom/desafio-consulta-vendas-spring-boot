@@ -68,5 +68,10 @@ public class Seller {
 
 	public List<Sale> getSales() {
 		return sales;
-	}	
+	}
+
+	@Override
+	public String toString() {
+		return "Seller [id=" + id + ", name=" + name + ", email=" + email + ", phone=" + phone + "]";
+	}
 }
